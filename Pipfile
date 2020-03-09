@@ -1,0 +1,23 @@
+[[source]]
+url ="https://tensorflow.pypi.thoth-station.ninja/index/manylinux2010/AVX2/simple/"
+verify_ssl = true
+name = "redhat-aicoe-experiments"
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+chrisapp = "*"
+tensorflow = {version="==1.12.3", index="redhat-aicoe-experiments"}
+pypng = "*"
+numpy = "*"
+Pillow = "*"
+
+[requires]
+python_version = "3.6"
+
+
