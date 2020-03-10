@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2a838b986985e43e70d7dcb97c216a20ea7af564d6f596e7755d41a5e53f6117"
+            "sha256": "54e8344d795ae953037c41be6d63266f6c4261f8d095ffcc22a4b654e82f9f60"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -43,10 +43,17 @@
         },
         "gast": {
             "hashes": [
-                "sha256:8f46f5be57ae6889a4e16e2ca113b1703ef17f2b0abceb83793eaba9e1351a45",
-                "sha256:b881ef288a49aa81440d2c5eb8aeefd4c2bb8993d5f50edae7413a85bfdb3b57"
+                "sha256:fe939df4583692f0512161ec1c880e0a10e71e6a232da045ab8edd3756fbadf0"
             ],
-            "version": "==0.3.3"
+            "version": "==0.2.2"
+        },
+        "google-pasta": {
+            "hashes": [
+                "sha256:41bbe63bab92408452585ff2e1673ec1e35b88e163371cbed2a18510be4e8bc5",
+                "sha256:644dcf3784cf7147ab01de5dc22e60a638d219d4e4a3a7464eb98997ae2fe66f",
+                "sha256:713813a9f7d6589e5defdaf21e80e4392eb124662f8bd829acd51a4f8735c0cb"
+            ],
+            "version": "==0.1.8"
         },
         "grpcio": {
             "hashes": [
@@ -178,6 +185,13 @@
             "index": "redhat-aicoe-experiments",
             "version": "==1.18.1"
         },
+        "opt-einsum": {
+            "hashes": [
+                "sha256:738b0a1db1d3084d360081bb64d826f9db06d2df7cc0bf8e2c9356028da1fa31",
+                "sha256:f6fbfbb759e670305c5c9a4dc4432e30f65e06fede88293dacfe19915af73386"
+            ],
+            "version": "==3.2.0"
+        },
         "pillow": {
             "hashes": [
                 "sha256:0a628977ac2e01ca96aaae247ec2bd38e729631ddf2221b4b715446fd45505be",
@@ -245,30 +259,31 @@
         },
         "tensorboard": {
             "hashes": [
-                "sha256:6f194519f41762bfdf5eb410ccf33226d1c252caf5ad8893288648bfbcf4d135",
-                "sha256:81170f66bf8f95c2e9f6b3fefe0ddc5472655a9e3793e73b5b5d4ec0ba395e76"
+                "sha256:4cad2c65f6011e51609b463014c014fd7c6ddd9c1263af1d4f18dd97ed88c2bc",
+                "sha256:612b789386aa1b2c4804e1961273b37f8e4dd97613f98bc90ff0402d24627f50"
             ],
-            "version": "==1.12.2"
+            "version": "==1.15.0"
         },
         "tensorflow": {
             "hashes": [
-                "sha256:191bcc48aae5aa5627fdcccd21057e5b0e266db01863688d566e791fcbde9b7f",
-                "sha256:2384393412e133e653879f9ced1b00cfb63570998136a714a3f70d5a631f911c",
-                "sha256:24ad435ef4379ba263db230c8547b7d6fe93de661c160cfe4c16c3d8d9bb89c0",
-                "sha256:25a734b6e8689e48673da3d1a2b592cf3c3d647b8f56d1f9d1c47b32ebece8ae",
-                "sha256:2ddac2240072860c047b1ffc5f8e90acdac8bb3cec1c87065c7cd20fa730c9cc",
-                "sha256:4985bcb2bd787f78686b9aa5a532007a44f032d546f256042c85a24c31b2fd87",
-                "sha256:6a07ef74cb1796c90e399dffc5c95fae444b4eef6e803049426792d7a909da12",
-                "sha256:7bac5995050e162a8dc31b58e7949b0ec99aa3f0ab8616661471dbca62f01782",
-                "sha256:b2e095793ea4d75adbaa860d3dc5b2a59a52191ed89b9cbf8b24d7ae31564700",
-                "sha256:b8a814a514a5d69570f1a225b7430e5f9facc3332b4595d2c1ab3c1619375c5c",
-                "sha256:cc2298dda33f338238bdc6dddbe7a93c9ffb631ad156ed7674510d349c82a56b",
-                "sha256:d93968d25664cbcde3d16d633e09d98c233442ce53bd72fc091813713fe57d62",
-                "sha256:f25e636633947e42ebebdab8d063e1ecab40e6057e0429d19b3e42b1e7bc7650",
-                "sha256:f7b837e56aac6d19878d0b76376c40c29c98c01c5d7a8df42f3df83ff657b773"
+                "sha256:05862fadc752da737e33f0110eafb7511149db043d4836edd68d3608b6c2f521",
+                "sha256:34551b8cc446342dac8fdcf79e775e0841aeea38e927b73e2ecf4b2d01277264",
+                "sha256:41932b9c080058ff204a1f8e3894c286c69255691c320330770dd8f6ee2cb3e2",
+                "sha256:613072266dd60986b79e517f9e4a5f5d7c8495faeb439808db9a493ec3bebf96",
+                "sha256:618a7cb1499b0c0d6398f342e9b8ac08497c3105c68942f344dc9bf67ae1f22d",
+                "sha256:6b4c94168eb32a111b8510b2d4b1c5b6760bcabd6d56633025e5b99753d62bdf",
+                "sha256:a82c2c498ebab190ec2a06aec8455d6f7c191dff5fdd5b5528b416f42b0291b9",
+                "sha256:b6c57269009a641a74b3456ef7483e69143ed9762af321b0560db5a72cdcb01f",
+                "sha256:ef20ebaf39383271cdd4599e7593d01ebf73be61a59f015e404a36e8d06f7b7e"
             ],
             "index": "redhat-aicoe-experiments",
-            "version": "==1.12.3"
+            "version": "==1.15.2"
+        },
+        "tensorflow-estimator": {
+            "hashes": [
+                "sha256:8853bfb7c3c96fbdc80b3d66c37a10af6ccbcd235dc87474764270c02a0f86b9"
+            ],
+            "version": "==1.15.1"
         },
         "termcolor": {
             "hashes": [
@@ -290,6 +305,12 @@
             ],
             "markers": "python_version >= '3'",
             "version": "==0.34.2"
+        },
+        "wrapt": {
+            "hashes": [
+                "sha256:b62ffa81fb85f4332a4f609cab4ac40709470da05643a082ec1eb88e6d9b97d7"
+            ],
+            "version": "==1.12.1"
         }
     },
     "develop": {}
