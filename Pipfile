@@ -12,7 +12,7 @@ verify_ssl = true
 
 [packages]
 chrisapp = "*"
-tensorflow = {version="==1.12.3", index="redhat-aicoe-experiments"}
+tensorflow = {version="==1.15.4", index="redhat-aicoe-experiments"}
 pypng = "*"
 numpy = "*"
 Pillow = "*"
